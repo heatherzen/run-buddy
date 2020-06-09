@@ -54,18 +54,21 @@
                 <label for="phone">Enter a telephone number</label>
                 <input type="tel" placeholder="Telephone Number" name="phone" id="phone" class="form-input" />
                 <p>
-                    Have you worked out with a trainer before?
+                  Have you worked out with a trainer before?
+                  <span class="radio-wrapper">
                     <input type="radio" name="trainer-confirm" id="trainer-yes" />
                     <label for="trainer-yes">Yes</label>
+                  </span>
+                  <span class="radio-wrapper">
                     <input type="radio" name="trainer-confirm" id="trainer-no" />
                     <label for="trainer-no">No</label>
+                  </span>
                 </p>
-                
                 <p>
-                    <label for="checkbox" >
-                        I acknowledge that I am at least 18 years of age.
-                    </label>
+                  <span class="checkbox-wrapper">
                     <input type="checkbox" name="age-confirm" id="checkbox" />
+                    <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+                  </span>
                 </p>
                 <button type="submit">
                     Get Running!
@@ -341,11 +344,11 @@
               <h3>Contact Us</h3>
               <form>
                 <label for="contact-name"></label>
-                <input type="text" id="contact-name" placeholder="Your Name" class="contact-form-input" />
+                <input type="text" id="contact-name" placeholder="Your Name" class="contact-form input" />
             
                 <label for="contact-message"></label>
                 <!-- <input type="message" class= "form-input"> -->
-                <textarea id="contact-message" placeholder="Message" class="contact-form-input"></textarea>
+                <textarea id="contact-message" placeholder="Message" class="contact-form textarea"></textarea>
             
                 <button type="submit">Submit</button>
               </form>
